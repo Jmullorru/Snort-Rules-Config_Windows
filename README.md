@@ -13,9 +13,13 @@ Este repositorio contiene las configuraciones y reglas necesarias para implement
 
 1. Tener instalado **Snort** en el sistema operativo Windows.
 2. Haber descargado e instalado **Npcap** para la captura de tráfico de red.
-3. Acceso a las herramientas básicas de Git para clonar este repositorio.
+3. (opcional) Acceso a las herramientas básicas de Git para clonar este repositorio.
 
 ## Instrucciones de Uso
+### Descargar el archivo 
+
+1. Nos dirigimos a el botón '<>Code' situado en la parte de arriba y marcad ode color verde
+2. Seleccionamos Download.Zip 
 
 ### Clonar el Repositorio
 
