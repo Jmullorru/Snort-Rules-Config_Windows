@@ -1,4 +1,4 @@
-# Snort-Rules-Config_Windows
+# Snort-Rules-Config_Windows (v2.9.2)
 
 Este repositorio contiene las configuraciones y reglas necesarias para implementar Snort en un entorno Windows.
 
