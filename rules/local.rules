@@ -20,5 +20,5 @@
 #-------------
 
 #alerta de ping hacia el PC, se puede excluir la ip de enlace del ruter mediante ![IP_ROUTER] 
-# alert icmp any any -> ![IP_ROUTER] any ....
+# alert icmp any ![IP_ROUTER] -> ![IP_ROUTER] any ....
 alert icmp any any -> any any (msg: "Ping Detectado"; sid:1000001;)
