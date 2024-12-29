@@ -30,3 +30,10 @@
 #puerto 80 intento de acceso a paneles de admin
  alert tcp any any -> any 80 (msg:"Alerta - Intento de acceso a URL sensible detectado"; content:"/admin"; http_uri; nocase; priority:1; sid:1000003; rev:1;)
 
+#escaneo de puertos
+alert tcp any any -> any any (msg:"Alerta - Escaneo de puertos detectado"; threshold:type both, track by_dst, count 10, seconds 2; priority:1; sid:1000004; rev:1;)
+
+#escaneo de puertos avanzado con nmap 
+alert tcp any any -> any any (msg:"Alerta critica - Detectado escaneo de puertos con Nmap"; content:"Nmap"; priority:1; sid:1000006; rev:1;)
+
+
